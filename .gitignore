@@ -1,0 +1,128 @@
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# 依赖目录
+node_modules/
+jspm_packages/
+bower_components/
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# 其他
+*.zip
+*.jar
+*.war
+*.ear
+*.tar.gz
+*.rar
+
+# 虚拟环境
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Coverage Reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# 翻译文件
+*.mo
+*.pot
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx 文档
+docs/_build/
+
+# PyBuilder
+target/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath 解析文件
+*.sage.py
+
+# 环境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder 项目设置
+.spyderproject
+.spyproject
+
+# Rope 项目设置
+.ropeproject
+
+# mkdocs 文档
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre 类型检查器
+.pyre/
+
+# Chrome 扩展特定
+*.pem
+*.crx

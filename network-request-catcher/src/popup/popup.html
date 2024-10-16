@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>网络请求记录器</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <section id="controls">
+      <div class="filter-group">
+        <div class="filter-section">
+          <label><input type="checkbox" id="filterGET" checked> GET</label>
+          <label><input type="checkbox" id="filterPOST" checked> POST</label>
+          <label><input type="checkbox" id="filterOTHER" checked> Other</label>
+        </div>
+        <div class="filter-separator"></div>
+        <div class="filter-section">
+          <label><input type="checkbox" id="filterXHR" checked> XHR/Fetch</label>
+          <label><input type="checkbox" id="filterDOCUMENT" checked> Document</label>
+          <label><input type="checkbox" id="filterMEDIA" checked> Media</label>
+          <label><input type="checkbox" id="filterOTHER_TYPE" checked> Other</label>
+        </div>
+      </div>
+      <div class="button-group">
+        <button id="toggleRecording" class="primary-button"></button>
+        <button id="clearRequests" class="clear-button"></button>
+      </div>
+    </section>
+    <section id="requestListContainer">
+      <div id="requestList"></div>
+    </section>
+  </div>
+  <div id="requestDetailsModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="requestDetailsContent"></div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "extensionName": {
+    "message": "网络请求捕手"
+  },
+  "extensionDescription": {
+    "message": "专为Python爬虫开发者设计的工具。轻松捕获网络请求并转换为Python友好的格式。功能包括实时请求监控、自动将请求头和请求体转换为Python字典格式，以及便捷的复制功能，方便直接集成到您的爬虫脚本中。"
+  },
+  "startButton": {
+    "message": "开始"
+  },
+  "stopButton": {
+    "message": "停止"
+  },
+  "clearButton": {
+    "message": "清除"
+  },
+  "noData": {
+    "message": "暂无数据"
+  },
+  "clickToCopy": {
+    "message": "点击即可复制"
+  },
+  "firstTimeTip": {
+    "message": "点击\"开始\"记录请求"
+  }
+}

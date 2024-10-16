@@ -1,0 +1,26 @@
+{
+  "extensionName": {
+    "message": "Network Request Catcher"
+  },
+  "extensionDescription": {
+    "message": "A specialized tool for Python web scraping developers. Easily capture and convert network requests to Python-friendly formats. Features include real-time request monitoring, automatic conversion of headers and body to Python dict format, and convenient copy functionality for seamless integration into your scraping scripts."
+  },
+  "startButton": {
+    "message": "Start"
+  },
+  "stopButton": {
+    "message": "Stop"
+  },
+  "clearButton": {
+    "message": "Clear"
+  },
+  "noData": {
+    "message": "No data"
+  },
+  "clickToCopy": {
+    "message": "Click to copy"
+  },
+  "firstTimeTip": {
+    "message": "Click 'Start' to record requests"
+  }
+}
